@@ -1,0 +1,1919 @@
+{
+  "0": {
+    "code": 0,
+    "name": "BRK",
+    "cycles": {
+      "Normal": 7
+    },
+    "bytes": 2,
+    "flags": {
+      "bits": 4
+    },
+    "mode": "Implied"
+  },
+  "1": {
+    "code": 1,
+    "name": "ORA",
+    "cycles": {
+      "Normal": 6
+    },
+    "bytes": 2,
+    "flags": {
+      "bits": 130
+    },
+    "mode": "IndirectX"
+  },
+  "2": null,
+  "3": null,
+  "4": null,
+  "5": {
+    "code": 5,
+    "name": "ORA",
+    "cycles": {
+      "Normal": 3
+    },
+    "bytes": 2,
+    "flags": {
+      "bits": 130
+    },
+    "mode": "ZeroPage"
+  },
+  "6": {
+    "code": 6,
+    "name": "ASL",
+    "cycles": {
+      "Normal": 5
+    },
+    "bytes": 2,
+    "flags": {
+      "bits": 131
+    },
+    "mode": "ZeroPage"
+  },
+  "7": null,
+  "8": {
+    "code": 8,
+    "name": "PHP",
+    "cycles": {
+      "Normal": 3
+    },
+    "bytes": 1,
+    "flags": {
+      "bits": 0
+    },
+    "mode": "Implied"
+  },
+  "9": {
+    "code": 9,
+    "name": "ORA",
+    "cycles": {
+      "Normal": 2
+    },
+    "bytes": 2,
+    "flags": {
+      "bits": 130
+    },
+    "mode": "Immediate"
+  },
+  "10": {
+    "code": 10,
+    "name": "ASL",
+    "cycles": {
+      "Normal": 2
+    },
+    "bytes": 1,
+    "flags": {
+      "bits": 131
+    },
+    "mode": "Accumulator"
+  },
+  "11": null,
+  "12": null,
+  "13": {
+    "code": 13,
+    "name": "ORA",
+    "cycles": {
+      "Normal": 4
+    },
+    "bytes": 3,
+    "flags": {
+      "bits": 130
+    },
+    "mode": "Absolute"
+  },
+  "14": {
+    "code": 14,
+    "name": "ASL",
+    "cycles": {
+      "Normal": 6
+    },
+    "bytes": 3,
+    "flags": {
+      "bits": 131
+    },
+    "mode": "Absolute"
+  },
+  "15": null,
+  "16": {
+    "code": 16,
+    "name": "BPL",
+    "cycles": {
+      "Branched": 2
+    },
+    "bytes": 2,
+    "flags": {
+      "bits": 0
+    },
+    "mode": "Relative"
+  },
+  "17": {
+    "code": 17,
+    "name": "ORA",
+    "cycles": {
+      "Paged": 5
+    },
+    "bytes": 2,
+    "flags": {
+      "bits": 130
+    },
+    "mode": "IndirectY"
+  },
+  "18": null,
+  "19": null,
+  "20": null,
+  "21": {
+    "code": 21,
+    "name": "ORA",
+    "cycles": {
+      "Normal": 4
+    },
+    "bytes": 2,
+    "flags": {
+      "bits": 130
+    },
+    "mode": "ZeroPageX"
+  },
+  "22": {
+    "code": 22,
+    "name": "ASL",
+    "cycles": {
+      "Normal": 6
+    },
+    "bytes": 2,
+    "flags": {
+      "bits": 131
+    },
+    "mode": "ZeroPageX"
+  },
+  "23": null,
+  "24": {
+    "code": 24,
+    "name": "CLC",
+    "cycles": {
+      "Normal": 2
+    },
+    "bytes": 1,
+    "flags": {
+      "bits": 1
+    },
+    "mode": "Implied"
+  },
+  "25": {
+    "code": 25,
+    "name": "ORA",
+    "cycles": {
+      "Paged": 4
+    },
+    "bytes": 3,
+    "flags": {
+      "bits": 130
+    },
+    "mode": "AbsoluteY"
+  },
+  "26": null,
+  "27": null,
+  "28": null,
+  "29": {
+    "code": 29,
+    "name": "ORA",
+    "cycles": {
+      "Paged": 4
+    },
+    "bytes": 3,
+    "flags": {
+      "bits": 130
+    },
+    "mode": "AbsoluteX"
+  },
+  "30": {
+    "code": 30,
+    "name": "ASL",
+    "cycles": {
+      "Normal": 7
+    },
+    "bytes": 3,
+    "flags": {
+      "bits": 131
+    },
+    "mode": "AbsoluteX"
+  },
+  "31": null,
+  "32": {
+    "code": 32,
+    "name": "JSR",
+    "cycles": {
+      "Normal": 6
+    },
+    "bytes": 3,
+    "flags": {
+      "bits": 0
+    },
+    "mode": "Implied"
+  },
+  "33": {
+    "code": 33,
+    "name": "AND",
+    "cycles": {
+      "Normal": 6
+    },
+    "bytes": 2,
+    "flags": {
+      "bits": 130
+    },
+    "mode": "IndirectX"
+  },
+  "34": null,
+  "35": null,
+  "36": {
+    "code": 36,
+    "name": "BIT",
+    "cycles": {
+      "Normal": 3
+    },
+    "bytes": 2,
+    "flags": {
+      "bits": 194
+    },
+    "mode": "ZeroPage"
+  },
+  "37": {
+    "code": 37,
+    "name": "AND",
+    "cycles": {
+      "Normal": 3
+    },
+    "bytes": 2,
+    "flags": {
+      "bits": 130
+    },
+    "mode": "ZeroPage"
+  },
+  "38": {
+    "code": 38,
+    "name": "ROL",
+    "cycles": {
+      "Normal": 5
+    },
+    "bytes": 2,
+    "flags": {
+      "bits": 131
+    },
+    "mode": "ZeroPage"
+  },
+  "39": null,
+  "40": {
+    "code": 40,
+    "name": "PLP",
+    "cycles": {
+      "Normal": 4
+    },
+    "bytes": 1,
+    "flags": {
+      "bits": 207
+    },
+    "mode": "Implied"
+  },
+  "41": {
+    "code": 41,
+    "name": "AND",
+    "cycles": {
+      "Normal": 2
+    },
+    "bytes": 2,
+    "flags": {
+      "bits": 130
+    },
+    "mode": "Immediate"
+  },
+  "42": {
+    "code": 42,
+    "name": "ROL",
+    "cycles": {
+      "Normal": 2
+    },
+    "bytes": 1,
+    "flags": {
+      "bits": 131
+    },
+    "mode": "Accumulator"
+  },
+  "43": null,
+  "44": {
+    "code": 44,
+    "name": "BIT",
+    "cycles": {
+      "Normal": 4
+    },
+    "bytes": 3,
+    "flags": {
+      "bits": 194
+    },
+    "mode": "Absolute"
+  },
+  "45": {
+    "code": 45,
+    "name": "AND",
+    "cycles": {
+      "Normal": 4
+    },
+    "bytes": 3,
+    "flags": {
+      "bits": 130
+    },
+    "mode": "Absolute"
+  },
+  "46": {
+    "code": 46,
+    "name": "ROL",
+    "cycles": {
+      "Normal": 6
+    },
+    "bytes": 3,
+    "flags": {
+      "bits": 131
+    },
+    "mode": "Absolute"
+  },
+  "47": null,
+  "48": {
+    "code": 48,
+    "name": "BMI",
+    "cycles": {
+      "Branched": 2
+    },
+    "bytes": 2,
+    "flags": {
+      "bits": 0
+    },
+    "mode": "Relative"
+  },
+  "49": {
+    "code": 49,
+    "name": "AND",
+    "cycles": {
+      "Paged": 5
+    },
+    "bytes": 2,
+    "flags": {
+      "bits": 130
+    },
+    "mode": "IndirectY"
+  },
+  "50": null,
+  "51": null,
+  "52": null,
+  "53": {
+    "code": 53,
+    "name": "AND",
+    "cycles": {
+      "Normal": 4
+    },
+    "bytes": 2,
+    "flags": {
+      "bits": 130
+    },
+    "mode": "ZeroPageX"
+  },
+  "54": {
+    "code": 54,
+    "name": "ROL",
+    "cycles": {
+      "Normal": 6
+    },
+    "bytes": 2,
+    "flags": {
+      "bits": 131
+    },
+    "mode": "ZeroPageX"
+  },
+  "55": null,
+  "56": {
+    "code": 56,
+    "name": "SEC",
+    "cycles": {
+      "Normal": 2
+    },
+    "bytes": 1,
+    "flags": {
+      "bits": 1
+    },
+    "mode": "Implied"
+  },
+  "57": {
+    "code": 57,
+    "name": "AND",
+    "cycles": {
+      "Paged": 4
+    },
+    "bytes": 3,
+    "flags": {
+      "bits": 130
+    },
+    "mode": "AbsoluteY"
+  },
+  "58": null,
+  "59": null,
+  "60": null,
+  "61": {
+    "code": 61,
+    "name": "AND",
+    "cycles": {
+      "Paged": 4
+    },
+    "bytes": 3,
+    "flags": {
+      "bits": 130
+    },
+    "mode": "AbsoluteX"
+  },
+  "62": {
+    "code": 62,
+    "name": "ROL",
+    "cycles": {
+      "Normal": 7
+    },
+    "bytes": 3,
+    "flags": {
+      "bits": 131
+    },
+    "mode": "AbsoluteX"
+  },
+  "63": null,
+  "64": {
+    "code": 64,
+    "name": "RTI",
+    "cycles": {
+      "Normal": 6
+    },
+    "bytes": 1,
+    "flags": {
+      "bits": 207
+    },
+    "mode": "Implied"
+  },
+  "65": {
+    "code": 65,
+    "name": "EOR",
+    "cycles": {
+      "Normal": 6
+    },
+    "bytes": 2,
+    "flags": {
+      "bits": 130
+    },
+    "mode": "IndirectX"
+  },
+  "66": null,
+  "67": null,
+  "68": null,
+  "69": {
+    "code": 69,
+    "name": "EOR",
+    "cycles": {
+      "Normal": 3
+    },
+    "bytes": 2,
+    "flags": {
+      "bits": 130
+    },
+    "mode": "ZeroPage"
+  },
+  "70": {
+    "code": 70,
+    "name": "LSR",
+    "cycles": {
+      "Normal": 5
+    },
+    "bytes": 2,
+    "flags": {
+      "bits": 131
+    },
+    "mode": "ZeroPage"
+  },
+  "71": null,
+  "72": {
+    "code": 72,
+    "name": "PHA",
+    "cycles": {
+      "Normal": 3
+    },
+    "bytes": 1,
+    "flags": {
+      "bits": 0
+    },
+    "mode": "Implied"
+  },
+  "73": {
+    "code": 73,
+    "name": "EOR",
+    "cycles": {
+      "Normal": 2
+    },
+    "bytes": 2,
+    "flags": {
+      "bits": 130
+    },
+    "mode": "Immediate"
+  },
+  "74": {
+    "code": 74,
+    "name": "LSR",
+    "cycles": {
+      "Normal": 2
+    },
+    "bytes": 1,
+    "flags": {
+      "bits": 131
+    },
+    "mode": "Accumulator"
+  },
+  "75": null,
+  "76": {
+    "code": 76,
+    "name": "JMP",
+    "cycles": {
+      "Normal": 3
+    },
+    "bytes": 3,
+    "flags": {
+      "bits": 0
+    },
+    "mode": "Absolute"
+  },
+  "77": {
+    "code": 77,
+    "name": "EOR",
+    "cycles": {
+      "Normal": 4
+    },
+    "bytes": 3,
+    "flags": {
+      "bits": 130
+    },
+    "mode": "Absolute"
+  },
+  "78": {
+    "code": 78,
+    "name": "LSR",
+    "cycles": {
+      "Normal": 6
+    },
+    "bytes": 3,
+    "flags": {
+      "bits": 131
+    },
+    "mode": "Absolute"
+  },
+  "79": null,
+  "80": {
+    "code": 80,
+    "name": "BVC",
+    "cycles": {
+      "Branched": 2
+    },
+    "bytes": 2,
+    "flags": {
+      "bits": 0
+    },
+    "mode": "Relative"
+  },
+  "81": {
+    "code": 81,
+    "name": "EOR",
+    "cycles": {
+      "Paged": 5
+    },
+    "bytes": 2,
+    "flags": {
+      "bits": 130
+    },
+    "mode": "IndirectY"
+  },
+  "82": null,
+  "83": null,
+  "84": null,
+  "85": {
+    "code": 85,
+    "name": "EOR",
+    "cycles": {
+      "Normal": 4
+    },
+    "bytes": 2,
+    "flags": {
+      "bits": 130
+    },
+    "mode": "ZeroPageX"
+  },
+  "86": {
+    "code": 86,
+    "name": "LSR",
+    "cycles": {
+      "Normal": 6
+    },
+    "bytes": 2,
+    "flags": {
+      "bits": 131
+    },
+    "mode": "ZeroPageX"
+  },
+  "87": null,
+  "88": {
+    "code": 88,
+    "name": "CLI",
+    "cycles": {
+      "Normal": 2
+    },
+    "bytes": 1,
+    "flags": {
+      "bits": 4
+    },
+    "mode": "Implied"
+  },
+  "89": {
+    "code": 89,
+    "name": "EOR",
+    "cycles": {
+      "Paged": 4
+    },
+    "bytes": 3,
+    "flags": {
+      "bits": 130
+    },
+    "mode": "AbsoluteY"
+  },
+  "90": null,
+  "91": null,
+  "92": null,
+  "93": {
+    "code": 93,
+    "name": "EOR",
+    "cycles": {
+      "Paged": 4
+    },
+    "bytes": 3,
+    "flags": {
+      "bits": 130
+    },
+    "mode": "AbsoluteX"
+  },
+  "94": {
+    "code": 94,
+    "name": "LSR",
+    "cycles": {
+      "Normal": 7
+    },
+    "bytes": 3,
+    "flags": {
+      "bits": 131
+    },
+    "mode": "AbsoluteX"
+  },
+  "95": null,
+  "96": {
+    "code": 96,
+    "name": "RTS",
+    "cycles": {
+      "Normal": 6
+    },
+    "bytes": 1,
+    "flags": {
+      "bits": 0
+    },
+    "mode": "Implied"
+  },
+  "97": {
+    "code": 97,
+    "name": "ADC",
+    "cycles": {
+      "Normal": 6
+    },
+    "bytes": 2,
+    "flags": {
+      "bits": 195
+    },
+    "mode": "IndirectX"
+  },
+  "98": null,
+  "99": null,
+  "100": null,
+  "101": {
+    "code": 101,
+    "name": "ADC",
+    "cycles": {
+      "Normal": 3
+    },
+    "bytes": 2,
+    "flags": {
+      "bits": 195
+    },
+    "mode": "ZeroPage"
+  },
+  "102": {
+    "code": 102,
+    "name": "ROR",
+    "cycles": {
+      "Normal": 5
+    },
+    "bytes": 2,
+    "flags": {
+      "bits": 131
+    },
+    "mode": "ZeroPage"
+  },
+  "103": null,
+  "104": {
+    "code": 104,
+    "name": "PLA",
+    "cycles": {
+      "Normal": 4
+    },
+    "bytes": 1,
+    "flags": {
+      "bits": 130
+    },
+    "mode": "Implied"
+  },
+  "105": {
+    "code": 105,
+    "name": "ADC",
+    "cycles": {
+      "Normal": 2
+    },
+    "bytes": 2,
+    "flags": {
+      "bits": 195
+    },
+    "mode": "Immediate"
+  },
+  "106": {
+    "code": 106,
+    "name": "ROR",
+    "cycles": {
+      "Normal": 2
+    },
+    "bytes": 1,
+    "flags": {
+      "bits": 131
+    },
+    "mode": "Accumulator"
+  },
+  "107": null,
+  "108": {
+    "code": 108,
+    "name": "JMP",
+    "cycles": {
+      "Normal": 5
+    },
+    "bytes": 3,
+    "flags": {
+      "bits": 0
+    },
+    "mode": "Indirect"
+  },
+  "109": {
+    "code": 109,
+    "name": "ADC",
+    "cycles": {
+      "Normal": 4
+    },
+    "bytes": 3,
+    "flags": {
+      "bits": 195
+    },
+    "mode": "Absolute"
+  },
+  "110": {
+    "code": 110,
+    "name": "ROR",
+    "cycles": {
+      "Normal": 6
+    },
+    "bytes": 3,
+    "flags": {
+      "bits": 131
+    },
+    "mode": "Absolute"
+  },
+  "111": null,
+  "112": {
+    "code": 112,
+    "name": "BVS",
+    "cycles": {
+      "Branched": 2
+    },
+    "bytes": 2,
+    "flags": {
+      "bits": 0
+    },
+    "mode": "Relative"
+  },
+  "113": {
+    "code": 113,
+    "name": "ADC",
+    "cycles": {
+      "Paged": 5
+    },
+    "bytes": 2,
+    "flags": {
+      "bits": 195
+    },
+    "mode": "IndirectY"
+  },
+  "114": null,
+  "115": null,
+  "116": null,
+  "117": {
+    "code": 117,
+    "name": "ADC",
+    "cycles": {
+      "Normal": 4
+    },
+    "bytes": 2,
+    "flags": {
+      "bits": 195
+    },
+    "mode": "ZeroPageX"
+  },
+  "118": {
+    "code": 118,
+    "name": "ROR",
+    "cycles": {
+      "Normal": 6
+    },
+    "bytes": 2,
+    "flags": {
+      "bits": 131
+    },
+    "mode": "ZeroPageX"
+  },
+  "119": null,
+  "120": {
+    "code": 120,
+    "name": "SEI",
+    "cycles": {
+      "Normal": 2
+    },
+    "bytes": 1,
+    "flags": {
+      "bits": 4
+    },
+    "mode": "Implied"
+  },
+  "121": {
+    "code": 121,
+    "name": "ADC",
+    "cycles": {
+      "Paged": 4
+    },
+    "bytes": 3,
+    "flags": {
+      "bits": 195
+    },
+    "mode": "AbsoluteY"
+  },
+  "122": null,
+  "123": null,
+  "124": null,
+  "125": {
+    "code": 125,
+    "name": "ADC",
+    "cycles": {
+      "Paged": 4
+    },
+    "bytes": 3,
+    "flags": {
+      "bits": 195
+    },
+    "mode": "AbsoluteX"
+  },
+  "126": {
+    "code": 126,
+    "name": "ROR",
+    "cycles": {
+      "Normal": 7
+    },
+    "bytes": 3,
+    "flags": {
+      "bits": 131
+    },
+    "mode": "AbsoluteX"
+  },
+  "127": null,
+  "128": null,
+  "129": {
+    "code": 129,
+    "name": "STA",
+    "cycles": {
+      "Normal": 6
+    },
+    "bytes": 2,
+    "flags": {
+      "bits": 0
+    },
+    "mode": "IndirectX"
+  },
+  "130": null,
+  "131": null,
+  "132": {
+    "code": 132,
+    "name": "STY",
+    "cycles": {
+      "Normal": 3
+    },
+    "bytes": 2,
+    "flags": {
+      "bits": 0
+    },
+    "mode": "ZeroPage"
+  },
+  "133": {
+    "code": 133,
+    "name": "STA",
+    "cycles": {
+      "Normal": 3
+    },
+    "bytes": 2,
+    "flags": {
+      "bits": 0
+    },
+    "mode": "ZeroPage"
+  },
+  "134": {
+    "code": 134,
+    "name": "STX",
+    "cycles": {
+      "Normal": 3
+    },
+    "bytes": 2,
+    "flags": {
+      "bits": 0
+    },
+    "mode": "ZeroPage"
+  },
+  "135": null,
+  "136": {
+    "code": 136,
+    "name": "DEY",
+    "cycles": {
+      "Normal": 2
+    },
+    "bytes": 1,
+    "flags": {
+      "bits": 130
+    },
+    "mode": "Implied"
+  },
+  "137": null,
+  "138": {
+    "code": 138,
+    "name": "TXA",
+    "cycles": {
+      "Normal": 2
+    },
+    "bytes": 1,
+    "flags": {
+      "bits": 130
+    },
+    "mode": "Implied"
+  },
+  "139": null,
+  "140": {
+    "code": 140,
+    "name": "STY",
+    "cycles": {
+      "Normal": 4
+    },
+    "bytes": 3,
+    "flags": {
+      "bits": 0
+    },
+    "mode": "Absolute"
+  },
+  "141": {
+    "code": 141,
+    "name": "STA",
+    "cycles": {
+      "Normal": 4
+    },
+    "bytes": 3,
+    "flags": {
+      "bits": 0
+    },
+    "mode": "Absolute"
+  },
+  "142": {
+    "code": 142,
+    "name": "STX",
+    "cycles": {
+      "Normal": 4
+    },
+    "bytes": 3,
+    "flags": {
+      "bits": 0
+    },
+    "mode": "Absolute"
+  },
+  "143": null,
+  "144": {
+    "code": 144,
+    "name": "BCC",
+    "cycles": {
+      "Branched": 2
+    },
+    "bytes": 2,
+    "flags": {
+      "bits": 0
+    },
+    "mode": "Relative"
+  },
+  "145": {
+    "code": 145,
+    "name": "STA",
+    "cycles": {
+      "Normal": 6
+    },
+    "bytes": 2,
+    "flags": {
+      "bits": 0
+    },
+    "mode": "IndirectY"
+  },
+  "146": null,
+  "147": null,
+  "148": {
+    "code": 148,
+    "name": "STY",
+    "cycles": {
+      "Normal": 4
+    },
+    "bytes": 2,
+    "flags": {
+      "bits": 0
+    },
+    "mode": "ZeroPageX"
+  },
+  "149": {
+    "code": 149,
+    "name": "STA",
+    "cycles": {
+      "Normal": 4
+    },
+    "bytes": 2,
+    "flags": {
+      "bits": 0
+    },
+    "mode": "ZeroPageX"
+  },
+  "150": {
+    "code": 150,
+    "name": "STX",
+    "cycles": {
+      "Normal": 4
+    },
+    "bytes": 2,
+    "flags": {
+      "bits": 0
+    },
+    "mode": "ZeroPageY"
+  },
+  "151": null,
+  "152": {
+    "code": 152,
+    "name": "TYA",
+    "cycles": {
+      "Normal": 2
+    },
+    "bytes": 1,
+    "flags": {
+      "bits": 130
+    },
+    "mode": "Implied"
+  },
+  "153": {
+    "code": 153,
+    "name": "STA",
+    "cycles": {
+      "Normal": 5
+    },
+    "bytes": 3,
+    "flags": {
+      "bits": 0
+    },
+    "mode": "AbsoluteY"
+  },
+  "154": {
+    "code": 154,
+    "name": "TXS",
+    "cycles": {
+      "Normal": 2
+    },
+    "bytes": 1,
+    "flags": {
+      "bits": 0
+    },
+    "mode": "Implied"
+  },
+  "155": null,
+  "156": null,
+  "157": {
+    "code": 157,
+    "name": "STA",
+    "cycles": {
+      "Normal": 5
+    },
+    "bytes": 3,
+    "flags": {
+      "bits": 0
+    },
+    "mode": "AbsoluteX"
+  },
+  "158": null,
+  "159": null,
+  "160": {
+    "code": 160,
+    "name": "LDY",
+    "cycles": {
+      "Normal": 2
+    },
+    "bytes": 2,
+    "flags": {
+      "bits": 130
+    },
+    "mode": "Immediate"
+  },
+  "161": {
+    "code": 161,
+    "name": "LDA",
+    "cycles": {
+      "Normal": 6
+    },
+    "bytes": 2,
+    "flags": {
+      "bits": 130
+    },
+    "mode": "IndirectX"
+  },
+  "162": {
+    "code": 162,
+    "name": "LDX",
+    "cycles": {
+      "Normal": 2
+    },
+    "bytes": 2,
+    "flags": {
+      "bits": 130
+    },
+    "mode": "Immediate"
+  },
+  "163": null,
+  "164": {
+    "code": 164,
+    "name": "LDY",
+    "cycles": {
+      "Normal": 3
+    },
+    "bytes": 2,
+    "flags": {
+      "bits": 130
+    },
+    "mode": "ZeroPage"
+  },
+  "165": {
+    "code": 165,
+    "name": "LDA",
+    "cycles": {
+      "Normal": 3
+    },
+    "bytes": 2,
+    "flags": {
+      "bits": 130
+    },
+    "mode": "ZeroPage"
+  },
+  "166": {
+    "code": 166,
+    "name": "LDX",
+    "cycles": {
+      "Normal": 3
+    },
+    "bytes": 2,
+    "flags": {
+      "bits": 130
+    },
+    "mode": "ZeroPage"
+  },
+  "167": null,
+  "168": {
+    "code": 168,
+    "name": "TAY",
+    "cycles": {
+      "Normal": 2
+    },
+    "bytes": 1,
+    "flags": {
+      "bits": 130
+    },
+    "mode": "Implied"
+  },
+  "169": {
+    "code": 169,
+    "name": "LDA",
+    "cycles": {
+      "Normal": 2
+    },
+    "bytes": 2,
+    "flags": {
+      "bits": 130
+    },
+    "mode": "Immediate"
+  },
+  "170": {
+    "code": 170,
+    "name": "TAX",
+    "cycles": {
+      "Normal": 2
+    },
+    "bytes": 1,
+    "flags": {
+      "bits": 130
+    },
+    "mode": "Implied"
+  },
+  "171": null,
+  "172": {
+    "code": 172,
+    "name": "LDY",
+    "cycles": {
+      "Normal": 4
+    },
+    "bytes": 3,
+    "flags": {
+      "bits": 130
+    },
+    "mode": "Absolute"
+  },
+  "173": {
+    "code": 173,
+    "name": "LDA",
+    "cycles": {
+      "Normal": 4
+    },
+    "bytes": 3,
+    "flags": {
+      "bits": 130
+    },
+    "mode": "Absolute"
+  },
+  "174": {
+    "code": 174,
+    "name": "LDX",
+    "cycles": {
+      "Normal": 4
+    },
+    "bytes": 3,
+    "flags": {
+      "bits": 130
+    },
+    "mode": "Absolute"
+  },
+  "175": null,
+  "176": {
+    "code": 176,
+    "name": "BCS",
+    "cycles": {
+      "Branched": 2
+    },
+    "bytes": 2,
+    "flags": {
+      "bits": 0
+    },
+    "mode": "Relative"
+  },
+  "177": {
+    "code": 177,
+    "name": "LDA",
+    "cycles": {
+      "Paged": 5
+    },
+    "bytes": 2,
+    "flags": {
+      "bits": 130
+    },
+    "mode": "IndirectY"
+  },
+  "178": null,
+  "179": null,
+  "180": {
+    "code": 180,
+    "name": "LDY",
+    "cycles": {
+      "Normal": 4
+    },
+    "bytes": 2,
+    "flags": {
+      "bits": 130
+    },
+    "mode": "ZeroPageX"
+  },
+  "181": {
+    "code": 181,
+    "name": "LDA",
+    "cycles": {
+      "Normal": 4
+    },
+    "bytes": 2,
+    "flags": {
+      "bits": 130
+    },
+    "mode": "ZeroPageX"
+  },
+  "182": {
+    "code": 182,
+    "name": "LDX",
+    "cycles": {
+      "Normal": 4
+    },
+    "bytes": 2,
+    "flags": {
+      "bits": 130
+    },
+    "mode": "ZeroPageY"
+  },
+  "183": null,
+  "184": {
+    "code": 184,
+    "name": "CLV",
+    "cycles": {
+      "Normal": 2
+    },
+    "bytes": 1,
+    "flags": {
+      "bits": 64
+    },
+    "mode": "Implied"
+  },
+  "185": {
+    "code": 185,
+    "name": "LDA",
+    "cycles": {
+      "Paged": 4
+    },
+    "bytes": 3,
+    "flags": {
+      "bits": 130
+    },
+    "mode": "AbsoluteY"
+  },
+  "186": {
+    "code": 186,
+    "name": "TSX",
+    "cycles": {
+      "Normal": 2
+    },
+    "bytes": 1,
+    "flags": {
+      "bits": 130
+    },
+    "mode": "Implied"
+  },
+  "187": null,
+  "188": {
+    "code": 188,
+    "name": "LDY",
+    "cycles": {
+      "Paged": 4
+    },
+    "bytes": 3,
+    "flags": {
+      "bits": 130
+    },
+    "mode": "AbsoluteX"
+  },
+  "189": {
+    "code": 189,
+    "name": "LDA",
+    "cycles": {
+      "Paged": 4
+    },
+    "bytes": 3,
+    "flags": {
+      "bits": 130
+    },
+    "mode": "AbsoluteX"
+  },
+  "190": {
+    "code": 190,
+    "name": "LDX",
+    "cycles": {
+      "Paged": 4
+    },
+    "bytes": 3,
+    "flags": {
+      "bits": 130
+    },
+    "mode": "AbsoluteY"
+  },
+  "191": null,
+  "192": {
+    "code": 192,
+    "name": "CPY",
+    "cycles": {
+      "Normal": 2
+    },
+    "bytes": 2,
+    "flags": {
+      "bits": 131
+    },
+    "mode": "Immediate"
+  },
+  "193": {
+    "code": 193,
+    "name": "CMP",
+    "cycles": {
+      "Normal": 6
+    },
+    "bytes": 2,
+    "flags": {
+      "bits": 131
+    },
+    "mode": "IndirectX"
+  },
+  "194": null,
+  "195": null,
+  "196": {
+    "code": 196,
+    "name": "CPY",
+    "cycles": {
+      "Normal": 3
+    },
+    "bytes": 2,
+    "flags": {
+      "bits": 131
+    },
+    "mode": "ZeroPage"
+  },
+  "197": {
+    "code": 197,
+    "name": "CMP",
+    "cycles": {
+      "Normal": 3
+    },
+    "bytes": 2,
+    "flags": {
+      "bits": 131
+    },
+    "mode": "ZeroPage"
+  },
+  "198": {
+    "code": 198,
+    "name": "DEC",
+    "cycles": {
+      "Normal": 5
+    },
+    "bytes": 2,
+    "flags": {
+      "bits": 130
+    },
+    "mode": "ZeroPage"
+  },
+  "199": null,
+  "200": {
+    "code": 200,
+    "name": "INY",
+    "cycles": {
+      "Normal": 2
+    },
+    "bytes": 1,
+    "flags": {
+      "bits": 130
+    },
+    "mode": "Implied"
+  },
+  "201": {
+    "code": 201,
+    "name": "CMP",
+    "cycles": {
+      "Normal": 2
+    },
+    "bytes": 2,
+    "flags": {
+      "bits": 131
+    },
+    "mode": "Immediate"
+  },
+  "202": {
+    "code": 202,
+    "name": "DEX",
+    "cycles": {
+      "Normal": 2
+    },
+    "bytes": 1,
+    "flags": {
+      "bits": 130
+    },
+    "mode": "Implied"
+  },
+  "203": null,
+  "204": {
+    "code": 204,
+    "name": "CPY",
+    "cycles": {
+      "Normal": 4
+    },
+    "bytes": 3,
+    "flags": {
+      "bits": 131
+    },
+    "mode": "Absolute"
+  },
+  "205": {
+    "code": 205,
+    "name": "CMP",
+    "cycles": {
+      "Normal": 4
+    },
+    "bytes": 3,
+    "flags": {
+      "bits": 131
+    },
+    "mode": "Absolute"
+  },
+  "206": {
+    "code": 206,
+    "name": "DEC",
+    "cycles": {
+      "Normal": 6
+    },
+    "bytes": 3,
+    "flags": {
+      "bits": 130
+    },
+    "mode": "Absolute"
+  },
+  "207": null,
+  "208": {
+    "code": 208,
+    "name": "BNE",
+    "cycles": {
+      "Branched": 2
+    },
+    "bytes": 2,
+    "flags": {
+      "bits": 0
+    },
+    "mode": "Relative"
+  },
+  "209": {
+    "code": 209,
+    "name": "CMP",
+    "cycles": {
+      "Paged": 5
+    },
+    "bytes": 2,
+    "flags": {
+      "bits": 131
+    },
+    "mode": "IndirectY"
+  },
+  "210": null,
+  "211": null,
+  "212": null,
+  "213": {
+    "code": 213,
+    "name": "CMP",
+    "cycles": {
+      "Normal": 4
+    },
+    "bytes": 2,
+    "flags": {
+      "bits": 131
+    },
+    "mode": "ZeroPageX"
+  },
+  "214": {
+    "code": 214,
+    "name": "DEC",
+    "cycles": {
+      "Normal": 6
+    },
+    "bytes": 2,
+    "flags": {
+      "bits": 130
+    },
+    "mode": "ZeroPageX"
+  },
+  "215": null,
+  "216": {
+    "code": 216,
+    "name": "CLD",
+    "cycles": {
+      "Normal": 2
+    },
+    "bytes": 1,
+    "flags": {
+      "bits": 8
+    },
+    "mode": "Implied"
+  },
+  "217": {
+    "code": 217,
+    "name": "CMP",
+    "cycles": {
+      "Paged": 4
+    },
+    "bytes": 3,
+    "flags": {
+      "bits": 131
+    },
+    "mode": "AbsoluteY"
+  },
+  "218": null,
+  "219": null,
+  "220": null,
+  "221": {
+    "code": 221,
+    "name": "CMP",
+    "cycles": {
+      "Paged": 4
+    },
+    "bytes": 3,
+    "flags": {
+      "bits": 131
+    },
+    "mode": "AbsoluteX"
+  },
+  "222": {
+    "code": 222,
+    "name": "DEC",
+    "cycles": {
+      "Normal": 7
+    },
+    "bytes": 3,
+    "flags": {
+      "bits": 130
+    },
+    "mode": "AbsoluteX"
+  },
+  "223": null,
+  "224": {
+    "code": 224,
+    "name": "CPX",
+    "cycles": {
+      "Normal": 2
+    },
+    "bytes": 2,
+    "flags": {
+      "bits": 131
+    },
+    "mode": "Immediate"
+  },
+  "225": {
+    "code": 225,
+    "name": "SBC",
+    "cycles": {
+      "Normal": 6
+    },
+    "bytes": 2,
+    "flags": {
+      "bits": 195
+    },
+    "mode": "IndirectX"
+  },
+  "226": null,
+  "227": null,
+  "228": {
+    "code": 228,
+    "name": "CPX",
+    "cycles": {
+      "Normal": 3
+    },
+    "bytes": 2,
+    "flags": {
+      "bits": 131
+    },
+    "mode": "ZeroPage"
+  },
+  "229": {
+    "code": 229,
+    "name": "SBC",
+    "cycles": {
+      "Normal": 3
+    },
+    "bytes": 2,
+    "flags": {
+      "bits": 195
+    },
+    "mode": "ZeroPage"
+  },
+  "230": {
+    "code": 230,
+    "name": "INC",
+    "cycles": {
+      "Normal": 5
+    },
+    "bytes": 2,
+    "flags": {
+      "bits": 130
+    },
+    "mode": "ZeroPage"
+  },
+  "231": null,
+  "232": {
+    "code": 232,
+    "name": "INX",
+    "cycles": {
+      "Normal": 2
+    },
+    "bytes": 1,
+    "flags": {
+      "bits": 130
+    },
+    "mode": "Implied"
+  },
+  "233": {
+    "code": 233,
+    "name": "SBC",
+    "cycles": {
+      "Normal": 2
+    },
+    "bytes": 2,
+    "flags": {
+      "bits": 195
+    },
+    "mode": "Immediate"
+  },
+  "234": {
+    "code": 234,
+    "name": "NOP",
+    "cycles": {
+      "Normal": 2
+    },
+    "bytes": 1,
+    "flags": {
+      "bits": 0
+    },
+    "mode": "Implied"
+  },
+  "235": null,
+  "236": {
+    "code": 236,
+    "name": "CPX",
+    "cycles": {
+      "Normal": 4
+    },
+    "bytes": 3,
+    "flags": {
+      "bits": 131
+    },
+    "mode": "Absolute"
+  },
+  "237": {
+    "code": 237,
+    "name": "SBC",
+    "cycles": {
+      "Normal": 4
+    },
+    "bytes": 3,
+    "flags": {
+      "bits": 195
+    },
+    "mode": "Absolute"
+  },
+  "238": {
+    "code": 238,
+    "name": "INC",
+    "cycles": {
+      "Normal": 6
+    },
+    "bytes": 3,
+    "flags": {
+      "bits": 130
+    },
+    "mode": "Absolute"
+  },
+  "239": null,
+  "240": {
+    "code": 240,
+    "name": "BEQ",
+    "cycles": {
+      "Branched": 2
+    },
+    "bytes": 2,
+    "flags": {
+      "bits": 0
+    },
+    "mode": "Relative"
+  },
+  "241": {
+    "code": 241,
+    "name": "SBC",
+    "cycles": {
+      "Paged": 5
+    },
+    "bytes": 2,
+    "flags": {
+      "bits": 195
+    },
+    "mode": "IndirectY"
+  },
+  "242": null,
+  "243": null,
+  "244": null,
+  "245": {
+    "code": 245,
+    "name": "SBC",
+    "cycles": {
+      "Normal": 4
+    },
+    "bytes": 2,
+    "flags": {
+      "bits": 195
+    },
+    "mode": "ZeroPageX"
+  },
+  "246": {
+    "code": 246,
+    "name": "INC",
+    "cycles": {
+      "Normal": 6
+    },
+    "bytes": 2,
+    "flags": {
+      "bits": 130
+    },
+    "mode": "ZeroPageX"
+  },
+  "247": null,
+  "248": {
+    "code": 248,
+    "name": "SED",
+    "cycles": {
+      "Normal": 2
+    },
+    "bytes": 1,
+    "flags": {
+      "bits": 8
+    },
+    "mode": "Implied"
+  },
+  "249": {
+    "code": 249,
+    "name": "SBC",
+    "cycles": {
+      "Paged": 4
+    },
+    "bytes": 3,
+    "flags": {
+      "bits": 195
+    },
+    "mode": "AbsoluteY"
+  },
+  "250": null,
+  "251": null,
+  "252": null,
+  "253": {
+    "code": 253,
+    "name": "SBC",
+    "cycles": {
+      "Paged": 4
+    },
+    "bytes": 3,
+    "flags": {
+      "bits": 195
+    },
+    "mode": "AbsoluteX"
+  },
+  "254": {
+    "code": 254,
+    "name": "INC",
+    "cycles": {
+      "Normal": 7
+    },
+    "bytes": 3,
+    "flags": {
+      "bits": 130
+    },
+    "mode": "AbsoluteX"
+  },
+  "255": null
+}
